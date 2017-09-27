@@ -21,8 +21,8 @@ type contract struct {
 	ContractStatus                              string          `json:"contractStatus"`
 	LastUpdatedDate                             string          `json:"lastUpdatedDate"`
 	ApprovedContractByBuyerDate                 string          `json:"approvedContractByBuyerDate"`
-	LCCreatedByBuyerBankDate                    string          `json:"lCCreatedByBuyerBankDate"`
-	LCApprovedBySellerBankDate                  string          `json:"lCApprovedBySellerBankDate"`
+	LCCreatedByBuyerBankDate                    string          `json:"lcCreatedByBuyerBankDate"`
+	LCApprovedBySellerBankDate                  string          `json:"lcApprovedBySellerBankDate"`
 	ReadyForShipmentBySellerDate                string          `json:"readyForShipmentBySellerDate"`
 	ShipmentInProgressByTransDate               string          `json:"shipmentInProgressByTransDate"`
 	ShipmentDeliveredByBuyerDate                string          `json:"shipmentDeliveredByBuyerDate"`
